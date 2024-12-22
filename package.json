@@ -1,0 +1,24 @@
+{
+  "name": "quickbun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run index.ts",
+    "dev:env":"bun --env-file=.env.dev run index.ts",
+    "dev:prod":"bun --env-file=.env.prod run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.14",
+    "@types/figlet": "^1.7.0",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "figlet": "^1.8.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
